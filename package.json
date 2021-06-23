@@ -1,0 +1,17 @@
+{
+  "name": "node-file-download",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "getFile.js",
+  "scripts": {
+    "run": "tsc && node getFile.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/fs-extra": "^9.0.11",
+    "fs-extra": "^10.0.0"
+  }
+}
